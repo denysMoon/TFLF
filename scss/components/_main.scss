@@ -1,0 +1,28 @@
+.main{
+    background: url('../img/bg-main.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 5px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-title{
+    position: relative;
+    margin-top: -500px;
+    height: 109px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+}
+h2{
+    font-family: 'Conv_Schnyder_X_Cond_XL_Demi';
+    font-size: 126px;
+}
+.item-2{
+    color: #580300;
+}
+.item-1{
+    color: transparent;
+    -webkit-text-stroke: 1px black; 
+}
